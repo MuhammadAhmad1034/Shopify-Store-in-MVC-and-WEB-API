@@ -1,0 +1,1 @@
+The code contains two folders.I have designed API in Web API project and developed shopfiy in seperate MVC project. To execute the web api project needed to be running in order to make Http Verbs actions on Shopify store.
