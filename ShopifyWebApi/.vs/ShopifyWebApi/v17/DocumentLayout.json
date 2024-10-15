@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|c:\\users\\5a_traders\\source\\repos\\shopifywebapi\\shopifywebapi\\repository\\authrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|solutionrelative:shopifywebapi\\repository\\authrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|c:\\users\\5a_traders\\source\\repos\\shopifywebapi\\shopifywebapi\\repository\\itemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|solutionrelative:shopifywebapi\\repository\\itemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|c:\\users\\5a_traders\\source\\repos\\shopifywebapi\\shopifywebapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|solutionrelative:shopifywebapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|c:\\users\\5a_traders\\source\\repos\\shopifywebapi\\shopifywebapi\\repository\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|solutionrelative:shopifywebapi\\repository\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|c:\\users\\5a_traders\\source\\repos\\shopifywebapi\\shopifywebapi\\models\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|solutionrelative:shopifywebapi\\models\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|c:\\users\\5a_traders\\source\\repos\\shopifywebapi\\shopifywebapi\\models\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|solutionrelative:shopifywebapi\\models\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|c:\\users\\5a_traders\\source\\repos\\shopifywebapi\\shopifywebapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|solutionrelative:shopifywebapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|c:\\users\\5a_traders\\source\\repos\\shopifywebapi\\shopifywebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|solutionrelative:shopifywebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|c:\\users\\5a_traders\\source\\repos\\shopifywebapi\\shopifywebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{369315D8-A4FC-4F04-9482-F7C94F39F0E7}|ShopifyWebApi\\ShopifyWebApi.csproj|solutionrelative:shopifywebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ShopifyWebApi\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ShopifyWebApi\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwGMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T17:04:46.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Models\\Auth\\User.cs",
+              "RelativeDocumentMoniker": "ShopifyWebApi\\Models\\Auth\\User.cs",
+              "ToolTip": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Models\\Auth\\User.cs",
+              "RelativeToolTip": "ShopifyWebApi\\Models\\Auth\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T16:00:56.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthRepo.cs",
+              "DocumentMoniker": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Repository\\AuthRepo.cs",
+              "RelativeDocumentMoniker": "ShopifyWebApi\\Repository\\AuthRepo.cs",
+              "ToolTip": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Repository\\AuthRepo.cs",
+              "RelativeToolTip": "ShopifyWebApi\\Repository\\AuthRepo.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAuwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T15:06:49.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Repository\\CategoryRepo.cs",
+              "RelativeDocumentMoniker": "ShopifyWebApi\\Repository\\CategoryRepo.cs",
+              "ToolTip": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Repository\\CategoryRepo.cs",
+              "RelativeToolTip": "ShopifyWebApi\\Repository\\CategoryRepo.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T17:04:45.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemRepo.cs",
+              "DocumentMoniker": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Repository\\ItemRepo.cs",
+              "RelativeDocumentMoniker": "ShopifyWebApi\\Repository\\ItemRepo.cs",
+              "ToolTip": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Repository\\ItemRepo.cs",
+              "RelativeToolTip": "ShopifyWebApi\\Repository\\ItemRepo.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAUwKoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:13:20.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SubCategory.cs",
+              "DocumentMoniker": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Models\\SubCategory.cs",
+              "RelativeDocumentMoniker": "ShopifyWebApi\\Models\\SubCategory.cs",
+              "ToolTip": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Models\\SubCategory.cs",
+              "RelativeToolTip": "ShopifyWebApi\\Models\\SubCategory.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:24:03.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "ShopifyWebApi\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Models\\Item.cs",
+              "RelativeToolTip": "ShopifyWebApi\\Models\\Item.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:17:13.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ShopifyWebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\appsettings.json",
+              "RelativeToolTip": "ShopifyWebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-09T11:23:19.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ShopifyWebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\5A_Traders\\source\\repos\\ShopifyWebApi\\ShopifyWebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ShopifyWebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-09T11:22:48.439Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

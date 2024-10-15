@@ -1,0 +1,38 @@
+﻿@model ShopifyMVCAPI.Models.Authentication.User
+
+<h4 style="text-align:center;">Register your account</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="addNewUser">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="userName" class="control-label"></label>
+                <input asp-for="userName" class="form-control" />
+                <span asp-validation-for="userName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="userPassword" class="control-label"></label>
+                <input asp-for="userPassword" class="form-control" min="8" type="password"/>
+                <span asp-validation-for="userPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="userEmail" class="control-label"></label>
+                <input asp-for="userEmail" class="form-control" type="email" />
+                <span asp-validation-for="userEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-primary mt-3" style="padding:10px 150px;"/>
+            </div>
+        </form>
+    </div>
+    <div>
+        <a asp-action="loginUser" asp-controller="ShopifyServices">
+        Already a user?
+        </a>
+    </div>
+</div>
+
+
+

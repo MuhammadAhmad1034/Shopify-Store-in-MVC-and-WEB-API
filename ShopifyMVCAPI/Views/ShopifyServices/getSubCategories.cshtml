@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ShopifyMVCAPI.Models.SubCategory>
+
+@if (ViewBag.IsAdmin == "True")
+{
+    <a asp-action="AddSubCategory">Add New Sub Category</a>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.subCategoryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.subCategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.categoryId)
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <a asp-controller="ShopifyServices" asp-action="getItems" asp-route-id="@item.categoryId" asp-route-id2="@item.subCategoryId">
+                @Html.DisplayFor(modelItem => item.subCategoryId)
+                </a>
+            </td>
+            <td>
+                <a asp-controller="ShopifyServices" asp-action="getItems" asp-route-id="@item.categoryId" asp-route-id2="@item.subCategoryId">
+                @Html.DisplayFor(modelItem => item.subCategoryName)
+                </a>
+            </td>
+            <td>
+                <a asp-controller="ShopifyServices" asp-action="getItems" asp-route-id="@item.categoryId" asp-route-id2="@item.subCategoryId">
+                @Html.DisplayFor(modelItem => item.categoryId)
+                </a>
+            </td>
+            <td>
+                @if (ViewBag.IsAdmin == "True")
+                {
+                    @Html.ActionLink("Edit ||| ", "UpdateSubCategory", new { id = item.subCategoryId })
+                    @Html.ActionLink("Delete", "DeleteSubCategory", new { id = item.subCategoryId },
+                             new { onclick = $"return confirm('Are you sure to delete {item.subCategoryName}?');" })
+                }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

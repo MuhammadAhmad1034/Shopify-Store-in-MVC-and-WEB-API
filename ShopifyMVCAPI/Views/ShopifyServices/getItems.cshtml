@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ShopifyMVCAPI.Models.Item>
+
+
+@if (ViewBag.IsAdmin == "True")
+{
+    <a asp-action="AddItem">Add New Item</a>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.itemId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.itemName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.price)
+            </th>
+            @* <th>
+                @Html.DisplayNameFor(model => model.unit)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.subCategoryId)
+            </th>
+            @* <th>
+                @Html.DisplayNameFor(model => model.categoryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.author)
+            </th> *@
+            @* <th></th> *@
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.itemId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.itemName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.price)
+            </td>
+            @* <td>
+                @Html.DisplayFor(modelItem => item.unit)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.subCategoryId)
+            </td>
+           @*  <td>
+                @Html.DisplayFor(modelItem => item.categoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.author)
+            </td> *@
+                <td>
+                    @if (ViewBag.IsAdmin == "True")
+                    {
+                        @Html.ActionLink("Edit ||| ", "UpdateItem", new { id = item.itemId })
+                        @Html.ActionLink("Delete", "DeleteItem", new { id = item.itemId },
+                                 new { onclick = $"return confirm('Are you sure to delete {item.itemName}?');" })
+                    }
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

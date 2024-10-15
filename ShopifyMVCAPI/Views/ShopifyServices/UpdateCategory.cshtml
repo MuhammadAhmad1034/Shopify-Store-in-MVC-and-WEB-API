@@ -1,0 +1,40 @@
+﻿@model ShopifyMVCAPI.Models.Category
+
+<h4 style="text-align:center;">Categories</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateCategory">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="categoryId" class="control-label"></label>
+                <input asp-for="categoryId" class="form-control" value="@Model.categoryId" disabled/>
+                <span asp-validation-for="categoryId" class="text-danger"></span>
+                
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="categoryName" class="control-label mt-1"></label>
+                <input asp-for="categoryName" class="form-control" value="@Model.categoryName" />
+                <span asp-validation-for="categoryName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary mt-3" />
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10" style="color:green">
+                    @ViewBag.Message
+                </div>
+            </div>
+            
+        </form>
+        
+    </div>
+</div>
+
+<div>
+    <a asp-action="getCategories">Back To Categories</a>
+</div>
+
+
+

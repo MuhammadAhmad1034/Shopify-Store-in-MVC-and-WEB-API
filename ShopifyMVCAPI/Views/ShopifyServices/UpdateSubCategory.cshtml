@@ -1,0 +1,34 @@
+﻿@model ShopifyMVCAPI.Models.SubCategory
+
+<h4>SubCategory</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateSubCategory">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="subCategoryId" class="control-label"></label>
+                <input asp-for="subCategoryId" class="form-control" disabled />
+                <span asp-validation-for="subCategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="subCategoryName" class="control-label"></label>
+                <input asp-for="subCategoryName" class="form-control" />
+                <span asp-validation-for="subCategoryName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="categoryId" class="control-label"></label>
+                <input asp-for="categoryId" class="form-control" />
+                <span asp-validation-for="categoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary mt-3" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    @* <a asp-action="Index">Back to List</a> *@
+</div>
+
